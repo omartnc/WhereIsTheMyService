@@ -1,0 +1,29 @@
+{
+  "name": "WhereIsTheMyService",
+  "version": "1.0.0",
+  "description": "Servis Takip Sistemi (Node Js API)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omartnc/WhereIsTheMyService.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omartnc/WhereIsTheMyService/issues"
+  },
+  "homepage": "https://github.com/omartnc/WhereIsTheMyService#readme",
+  "dependencies": {
+    "config": "^2.0.1",
+    "express": "^4.16.4",
+    "joi": "^14.0.2",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.6"
+  }
+}
