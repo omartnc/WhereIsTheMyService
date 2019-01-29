@@ -1,30 +1,26 @@
 {
-  "name": "WhereIsTheMyService",
+  "name": "vidly",
   "version": "1.0.0",
-  "description": "Servis Takip Sistemi (Node Js API)",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/omartnc/WhereIsTheMyService.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/omartnc/WhereIsTheMyService/issues"
-  },
-  "homepage": "https://github.com/omartnc/WhereIsTheMyService#readme",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "config": "^2.0.2",
-    "express": "^4.16.4",
-    "joi": "^14.0.2",
+    "bcrypt": "^1.0.3",
+    "config": "^1.29.4",
+    "express": "^4.16.2",
+    "express-async-errors": "^2.1.0",
+    "fawn": "^2.1.5",
+    "joi": "^13.1.0",
     "joi-objectid": "^2.0.0",
-    "jsonwebtoken": "^8.4.0",
-    "lodash": "^4.17.11",
-    "mongoose": "^5.4.6"
+    "jsonwebtoken": "^8.1.1",
+    "lodash": "^4.17.4",
+    "mongoose": "^5.0.2",
+    "winston": "^2.4.0",
+    "winston-mongodb": "^3.0.0"
   }
 }
