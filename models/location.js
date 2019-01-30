@@ -56,3 +56,4 @@ function validateLocation(location) {
 
 exports.Location = location;
 exports.validate = validateLocation;
+exports.locationSchema = locationSchema;
