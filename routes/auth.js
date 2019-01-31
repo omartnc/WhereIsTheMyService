@@ -19,8 +19,8 @@ router.post("/", async (req, res) => {
   const token = user.generateAuthToken();
   res.send(token);
 });
-
-function validate(req) {
+//açıklama
+function validate(req) { 
   const schema = {
     email: Joi.string()
       .min(5)
